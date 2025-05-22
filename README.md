@@ -17,8 +17,10 @@ ZapNews provides a streamlined way to consume news from various sources. It fetc
     * CSS
     * JavaScript
     * **Tailwind CSS** (for responsive and utility-first styling)
+
 * **Backend/API Proxy:**
     * **PHP** (acts as a server-side proxy to securely handle API requests to the Gemini API and bypass CORS restrictions)
+
 * **APIs & Services:**
     * **RSS2JSON API** (for converting RSS feeds into JSON data)
     * **Gemini API** (for generating AI-powered news summaries)

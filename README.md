@@ -6,7 +6,7 @@ A dynamic web application that allows users to browse news by category and chann
 
 ## Project Overview
 
-ZapNews provides a streamlined way to consume news from various sources. It fetches real-time news articles via RSS feeds, leverages the **Gemini API** for concise, numbered bullet-point summaries, and offers a convenient way to translate these summaries using Google Translate. The application features a clean, responsive user interface built with Tailwind CSS.
+ZapNews provides a streamlined way to consume news from various sources. It fetches real-time news articles via RSS feeds, leverages the **Gemini API** for concise, numbered bullet-point summaries, and offers a convenient way to translate these summaries using Google Translate. The application features a clean, responsive user interface built with CSS.
 
 ---
 

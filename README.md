@@ -13,9 +13,9 @@ ZapNews provides a streamlined way to consume news from various sources. It fetc
 ## Tech Stack
 
 * **Frontend:**
-    * HTML
-    * CSS
-    * JavaScript
+    * **HTML**
+    * **CSS**
+    * **JavaScript**
     * **Tailwind CSS** (for responsive and utility-first styling)
 
 * **Backend/API Proxy:**

@@ -31,14 +31,20 @@ ZapNews provides a streamlined way to consume news from various sources. It fetc
 ## Features
 
 * **Dynamic News Categories:** Browse news organized by categories like World, Indian, and Regional news, further broken down by language.
+
 * **Channel Selection:** Select specific news channels within each category and language.
+
 * **Real-time News Feeds:** Fetches the latest articles from configured RSS feeds.
+
 * **AI-Powered Summarization:**
     * Get concise, accurate summaries of news articles using the **Gemini API**.
     * Summaries are presented as **numbered bullet points** with clear line breaks for readability.
     * Designed to provide accurate information with a minimum of 5-7 key points.
+
 * **External Translation:** A dedicated "Translate" button opens the summary in Google Translate in a new tab for easy translation into multiple languages.
+
 * **Light and Dark Theme:** Users can toggle between a light and a dark theme for comfortable reading.
+
 * **Responsive UI:** Clean and adaptive design ensures a good user experience across various devices.
 
 ---
@@ -53,12 +59,14 @@ To run ZapNews locally, you'll need a PHP environment to host the proxy script.
     cd ZapNews
     ```
     *(Replace `<your-repository-url>` with the actual URL of your GitHub repository.)*
+    
 
-2.  **Obtain a Gemini API Key:**
+3.  **Obtain a Gemini API Key:**
     * Go to the [Google AI Studio](https://aistudio.google.com/app/apikey) or Google Cloud Console.
     * Generate a new API key for the Gemini API.
 
-3.  **Configure the PHP Proxy:**
+
+4.  **Configure the PHP Proxy:**
     * Create a file named `config.php` in the root of your project.
     * Open `config.php` and add your Gemini API key:
         ```php
@@ -68,7 +76,8 @@ To run ZapNews locally, you'll need a PHP environment to host the proxy script.
         ```
     * Ensure that `config.php` is added to your `.gitignore` file to prevent accidental exposure of your API key.
 
-4.  **Start a PHP Development Server:**
+
+5.  **Start a PHP Development Server:**
     * Open your terminal or command prompt.
     * Navigate to the root directory of the cloned project (where `index.html` and `gemini_proxy.php` are located).
     * Start the PHP built-in web server:
@@ -77,11 +86,13 @@ To run ZapNews locally, you'll need a PHP environment to host the proxy script.
         ```
         (You can use a different port if 8000 is occupied, e.g., `localhost:8080`).
 
-5.  **Access the Application:**
+
+6.  **Access the Application:**
     * Open your web browser.
     * Go to `http://localhost:8000/index.html` (or the port you chose).
 
-6.  **Use the App:**
+
+7.  **Use the App:**
     * Browse news categories and languages.
     * Select a news channel to view the latest articles.
     * Click the "Summarize" button on any news article to get an AI-generated summary on a new page.

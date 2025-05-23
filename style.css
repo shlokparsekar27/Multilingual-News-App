@@ -20,7 +20,7 @@ body {
 
 /* Dark Mode Body */
 body.dark-mode {
-    --bgcolor: #1d2125;
+    --bgcolor: #212837;
     --textcolor: rgb(182, 194, 207);
     background-color: var(--bgcolor);
     color: var(--textcolor);

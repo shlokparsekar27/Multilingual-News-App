@@ -31,14 +31,20 @@ ZapNews provides a streamlined way to consume news from various sources. It fetc
 ## Features
 
 * **Dynamic News Categories:** Browse news organized by categories like World, Indian, and Regional news, further broken down by language.
+
 * **Channel Selection:** Select specific news channels within each category and language.
+
 * **Real-time News Feeds:** Fetches the latest articles from configured RSS feeds.
+
 * **AI-Powered Summarization:**
     * Get concise, accurate summaries of news articles using the **Gemini API**.
     * Summaries are presented as **numbered bullet points** with clear line breaks for readability.
     * Designed to provide accurate information with a minimum of 5-7 key points.
+
 * **External Translation:** A dedicated "Translate" button opens the summary in Google Translate in a new tab for easy translation into multiple languages.
+
 * **Light and Dark Theme:** Users can toggle between a light and a dark theme for comfortable reading.
+
 * **Responsive UI:** Clean and adaptive design ensures a good user experience across various devices.
 
 ---
